@@ -1,0 +1,12 @@
+# node_modules papkasini e'tiborga olmaslik
+node_modules/
+
+# Muhit fayllarini e'tiborga olmaslik
+.env
+
+# Log fayllarini e'tiborga olmaslik
+*.log
+
+# Loyihani build qilingandan keyingi papkalarni e'tiborga olmaslik
+dist/
+build/
