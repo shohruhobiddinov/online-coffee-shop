@@ -27,7 +27,7 @@ function OpeningHours(props) {
                 className={"openingHours w-full h-[60vh] sm:py-[10%] lg:py-0 px-[10%] flex flex-wrap items-center justify-between font-irishGrover text-white"}>
                 <div className={"sm:w-full lg:w-[50%]"}>
                     <span
-                        className={"w-full font-[400] text-[29px] sm:text-[36px] md:text-[43px] lg:text-[50px] xl:text-[58px] bg-[#221B1899] px-7 py-5 rounded-xl"}>
+                        className={"w-full font-[400] sm:text-[29px] md:text-[43px] lg:text-[50px] xl:text-[58px] bg-[#221B1899] px-7 py-5 rounded-xl"}>
                         Opening Hours
                     </span>
                 </div>

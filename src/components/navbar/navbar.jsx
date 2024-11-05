@@ -15,10 +15,8 @@ function Navbar(props) {
                 <img src={logo} alt="logo" className={"w-[120px]"}/>
                 <div className={"sm:hidden lg:flex flex gap-7 font-[600] text-[17px] "}>
                     <Link to={"/"}>HOME</Link>
-                    <Link to={"/"}>ABOUT</Link>
+                    <Link to={"/about"}>ABOUT</Link>
                     <Link to={"/"}>MENU</Link>
-                    <Link to={"/"}>PRODUCTS</Link>
-                    <Link to={"/"}>News</Link>
                     <Link to={"/locations"}>lOCATIONS</Link>
                     <Link to={"/contact"}>Contact</Link>
                 </div>
@@ -27,10 +25,8 @@ function Navbar(props) {
                     <Drawer onClose={onClose} open={open}>
                         <div className={"flex flex-col gap-5 font-bold uppercase"}>
                             <Link to={"/"}>HOME</Link>
-                            <Link to={"/"}>ABOUT</Link>
+                            <Link to={"/about"}>ABOUT</Link>
                             <Link to={"/"}>MENU</Link>
-                            <Link to={"/"}>PRODUCTS</Link>
-                            <Link to={"/"}>News</Link>
                             <Link to={"/locations"}>lOCATIONS</Link>
                             <Link to={"/contact"}>Contact</Link>
                         </div>

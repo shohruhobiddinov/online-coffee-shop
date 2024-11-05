@@ -59,3 +59,15 @@
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+.aboutPage{
+    background-image: url("./assets/image 10 (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.allCoffees{
+    background-image: url("./assets/Rectangle 20.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
