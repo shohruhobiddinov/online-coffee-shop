@@ -24,11 +24,11 @@ function Navbar(props) {
                     <IoMenuSharp className={"text-[20px] cursor-pointer"} onClick={showDrawer}/>
                     <Drawer onClose={onClose} open={open}>
                         <div className={"flex flex-col gap-5 font-bold uppercase"}>
-                            <Link to={"/"}>HOME</Link>
-                            <Link to={"/about"}>ABOUT</Link>
-                            <Link to={"/"}>MENU</Link>
-                            <Link to={"/locations"}>lOCATIONS</Link>
-                            <Link to={"/contact"}>Contact</Link>
+                            <Link onClick={onClose} to={"/"}>HOME</Link>
+                            <Link onClick={onClose} to={"/about"}>ABOUT</Link>
+                            <Link onClick={onClose} to={"/"}>MENU</Link>
+                            <Link onClick={onClose} to={"/locations"}>lOCATIONS</Link>
+                            <Link onClick={onClose} to={"/contact"}>Contact</Link>
                         </div>
                     </Drawer>
                 </div>
